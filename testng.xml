@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CapstoneSauceDemoSuite">
+	<test name="LoginTests">
+		<parameter name="invalidUsername" value="standard_Invaliduser"/>
+		<parameter name="invalidPassword" value="secret_Invalidpwd"/>
+
+		<parameter name="validUsername" value="standard_user"/>
+		<parameter name="validPassword" value="secret_sauce"/>
+
+		<classes>
+			<class name="com.assignment.ui.qa.test.TestApplication"/>
+		</classes>
+
+	</test>
+
+</suite>

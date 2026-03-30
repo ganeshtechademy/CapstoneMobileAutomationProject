@@ -1,0 +1,6 @@
+pageObjects/SauceLoginPageObjects.class
+com/assignment/ui/qa/test/TestApplication.class
+pageObjects/ProductsPage.class
+pageObjects/LoginPage.class
+pageObjects/MenuPage.class
+com/assignment/ui/qa/test/SauceDemoTest.class
