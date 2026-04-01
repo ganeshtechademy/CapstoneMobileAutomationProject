@@ -10,9 +10,9 @@ public class ProductsPage extends BasePage {
         super(driver);
     }
 
-    private By title = By.xpath("//android.widget.TextView[@text='PRODUCTS']");
-    private By addToCart = By.xpath("(//android.view.ViewGroup[@content-desc='test-ADD TO CART'])[1]");
-    private By cartIcon = By.xpath("//android.view.ViewGroup[@content-desc='test-Cart']");
+    private By title = By.id("inventory_container");
+    private By addToCart = By.xpath("(//button[@id='add-to-cart-sauce-labs-backpack'])[1]");
+    private By cartIcon = By.xpath("//a[@class='shopping_cart_link']");
 
     public boolean isPageLoaded() {
         return isDisplayed(title);

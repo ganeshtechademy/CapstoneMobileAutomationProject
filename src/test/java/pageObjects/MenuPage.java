@@ -10,8 +10,8 @@ public class MenuPage extends BasePage {
         super(driver);
     }
 
-    private By menuBtn = By.xpath("//android.view.ViewGroup[@content-desc='test-Menu']");
-    private By logoutBtn = By.xpath("//android.view.ViewGroup[@content-desc='test-LOGOUT']");
+    private By menuBtn = By.id("react-burger-menu-btn");
+    private By logoutBtn = By.id("logout_sidebar_link");
 
     public LoginPage logout() {
         click(menuBtn);
